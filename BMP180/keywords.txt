@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map For BMP180/BMP085
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BMP180	KEYWORD1
+BMP085	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Initialize	KEYWORD2
+SoftReset	KEYWORD2
+IsConnected	KEYWORD2
+SetResolution	KEYWORD2
+GetUncompensatedTemperature	KEYWORD2
+GetUncompensatedPressure	KEYWORD2
+CompensateTemperature	KEYWORD2
+CompensatePressure	KEYWORD2
+GetTemperature	KEYWORD2
+GetPressure	KEYWORD2
+SetSeaLevelPressure	KEYWORD2
+SoftReset	KEYWORD2
+GetAltitude	KEYWORD2
+GetErrorText	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BMP180_ADDRESS	LITERAL1
+BMP180_ID_REG	LITERAL1
+BMP180_ID	LITERAL1
+BMP180_SOFT_RESET	LITERAL1
+BMP180_SOFT_RESET_INSTRUCTION	LITERAL1
+BMP180_MEASURE_TEMPERATURE	LITERAL1
+BMP180_MEASURE_PRESSURE	LITERAL1
+BMP180_CSR	LITERAL1
+BMP180_CER	LITERAL1
+BMP180_MEASUREMENT_CONTROL_REGISTER	LITERAL1
+BMP180_OutMSB	LITERAL1
+BMP180_OutLSB	LITERAL1
+BMP180_OutXLSB	LITERAL1
